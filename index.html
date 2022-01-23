@@ -4,15 +4,28 @@
         <style>
             body {
                 display: flex;
+                flex-direction: column;
+            }
+            #two-images {
+                display: flex;
             }
             img {
                 flex: 1 1 0;
                 width: 0;
+                margin: 0px 0px 40px 0px;
+            }
+            #addendum {
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg'></img>
-        <img src='https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/1200'></img>
+        <div id="two-images">
+            <img src='https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg'></img>
+            <img src='https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/1200'></img>
+        </div>
+        <div id="addendum">
+            Add the animal you find in the bushes.
+        </div>
     </body>
 </html>
